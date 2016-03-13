@@ -142,3 +142,7 @@ header > span.fa {
   color: #717171;
   font-size: 1.25em;
 }
+
+#employment {
+  clear: both;
+}
