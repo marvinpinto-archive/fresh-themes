@@ -10,10 +10,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #7B0796;
-}
-
 a:hover {
   text-decoration: underline;
 }
