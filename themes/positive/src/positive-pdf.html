@@ -13,9 +13,13 @@
         <h1>{{{initialWords r.name }}} <span style="color: #C00000;">{{{lastWord r.name }}}</span></h1>
         <span class="label">{{{ r.info.label }}}</span>
         <p id="contact">
-          {{#if r.contact.email}}<span class="fa fa-envelope-o"><a href="mailto:{{ RAW.contact.email }}"> {{{ r.contact.email }}}</a></span>{{/if}}
-          {{#if r.contact.phone}}<span class="fa fa-phone"> {{{ r.contact.phone }}}</span>{{/if}}
+          {{#if r.contact.email}}<span class="fa fa-envelope-o"><a href="mailto:{{ RAW.contact.email }}"> {{{ r.contact.email }}}</a></span>{{/if}}&nbsp;&middot;&nbsp;
+          {{#if r.contact.phone}}<span class="fa fa-phone"> {{{ r.contact.phone }}}</span>{{/if}}&nbsp;&middot;&nbsp;
           {{#if r.contact.website}}<span class="fa fa-link"><a href="{{ RAW.contact.website }}"> {{{ r.contact.website }}}</a></span>{{/if}}
+        </p>
+        <p id="contact2">
+          <span class="fa fa-github"><a href="https://github.com/marvinpinto"> marvinpinto</a></span>&nbsp;&middot;&nbsp;
+          <span class="fa fa-twitter"><a href="https://twitter.com/marvinpinto"> marvinpinto</a></span>
         </p>
       </header>
 

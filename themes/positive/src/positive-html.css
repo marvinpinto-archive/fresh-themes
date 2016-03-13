@@ -134,6 +134,11 @@ h1, h2, .label {
  float: right;
 }
 
+#contact2 {
+ clear: both;
+ float: right;
+}
+
 header > span.fa {
   text-align: center;
   margin-right: 3px;
